@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Ольга Дроганова](https://up.htmlacademy.ru/javascript/31/user/978977).
-* Наставник: `Неизвестно`.
+- Студент: [Ольга Дроганова](https://up.htmlacademy.ru/javascript/31/user/978977).
+- Наставник: [Анастасия Гущина] (https://htmlacademy.ru/profile/vanastasiya).
 
 ---
 
