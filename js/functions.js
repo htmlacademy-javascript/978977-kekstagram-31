@@ -1,12 +1,12 @@
 function checkStringLength(str, maxLength) {
   return str.length <= maxLength;
 }
-console.log(checkStringLength("строка", 20));
+console.log(checkStringLength('строка', 20));
 
 // палиндром
 function checksPalindrome(string) {
-  const formattedString = string.replaceAll(" ", "").toLowerCase();
-  let reversedString = "";
+  const formattedString = string.replaceAll(' ', '').toLowerCase();
+  let reversedString = '';
   for (let i = formattedString.length - 1; i >= 0; i--) {
     reversedString += formattedString[i];
   }
@@ -17,21 +17,21 @@ function checksPalindrome(string) {
   return result;
 }
 
-checksPalindrome("Лёша на полке клопа нашёл");
+checksPalindrome('Лёша на полке клопа нашёл');
 
 // отделяет
 function separatesNumbers(input) {
   const sentance = String(input);
-  let onlyNumbers = "";
+  let onlyNumbers = '';
   for (let i = 0; i < sentance.length; i++) {
     if (!isNaN(sentance[i]) && sentance[i] >= 0 && sentance[i] <= 9) {
       onlyNumbers += sentance[i];
     }
   }
-  if (onlyNumbers === "") {
+  if (onlyNumbers === '') {
     return NaN;
   }
   return parseInt(onlyNumbers, 10);
 }
 
-console.log(separatesNumbers("агент 0097"));
+console.log(separatesNumbers('агент 0097'));
